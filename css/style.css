@@ -3,7 +3,9 @@ body{
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 400;
       overflow-x: hidden; /* Hide horizontal scrollbar */
-    
+     overflow-x: hidden;
+      overflow-x: clip !important;
+        
 }
 /* styling menu icon */
 .nav-menu{
