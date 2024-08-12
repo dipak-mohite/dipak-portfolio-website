@@ -162,58 +162,27 @@
 
 
     </section>
-    <!-- home section ends here
+    <!-- home section ends here -->
 
-    <!-- expertise section starts
-    <section class="expertise mt-5" id="about" style="width:90%">
-     
-      <div class="row justify-content-evenly align-middle" style="background-color: white; margin-top: 30px;">
-        <!-- here data-aos is used for adding aos animation 
-        
-        
-
-        <div class="col-10 col-md-6 text-center text-md-start" data-aos="slide-right">
-          <h2 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: #3f396d; font-size:30px; margin-top: 10px; " ><span class="c-orange" style="font-size: 40px;">About Me</span>
+    <!-- expertise section starts -->
+    <section class="expertise mt-5" id="about" style="display: flex; justify-content: flex-end;">
+      <div class="row justify-content-evenly align-middle" style="background-color: white; width: 80%; margin-top: 10px;">
+        <!-- here data-aos is used for adding aos animation  -->
+        <div class="col-10 col-md-8 text-center text-md-start" data-aos="slide-right">
+          <h2 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: #3f396d; font-size:30px; margin-top: 10px;">
+            <span class="c-orange" style="font-size: 40px;">About Me</span>
           </h2>
-
-
-
-
-
-
           <p class="text-muted" style="text-align: justify; font-size: large;">
-             
-            I'm a dedicated and ambitious Computer Engineering student passionate about the programming and problem solving. I possess proficiency in Core Java, along with extensive experience in Full Stack Development and Cloud Computing, eager to apply my knowledge towards developing cutting-edge solutions in the dynamic realm of technology. <br><br>
-            
-            
+            I'm a dedicated and ambitious Computer Engineering student passionate about programming and problem solving. I possess proficiency in Core Java, along with extensive experience in Full Stack Development and Cloud Computing, eager to apply my knowledge towards developing cutting-edge solutions in the dynamic realm of technology. <br><br>
             I have completed my Diploma in Computer Engineering from Government Polytechnic, Osmanabad (Dharashiv).
-
-             My Diploma course in Computer Engineering was an exciting and fulfilling experience that allowed me to gain a strong foundation in various aspects of computer science. 
-
-              From learning basic programming concepts in C to working with advanced technologies such as Java and Python, I was exposed to a diverse range of subjects that helped me develop valuable skills and knowledge. <br>
-
-            
-
-              <br> And currently I'm pursuing B.Tech in Computer Engineering from MIT Academy of Engineering, Alandi(Pune). I am passionate about the programming and problem solving. I possess proficiency in Core Java, along with extensive experience in coding using C, C++, Python, Javascript and PHP. I am exploring the ever-evolving field of technology and leveraging my knowledge to contribute to innovative solutions. 
-             
-             
-             
+            My Diploma course in Computer Engineering was an exciting and fulfilling experience that allowed me to gain a strong foundation in various aspects of computer science. 
+            From learning basic programming concepts in C to working with advanced technologies such as Java and Python, I was exposed to a diverse range of subjects that helped me develop valuable skills and knowledge. <br>
+            <br> And currently I'm pursuing B.Tech in Computer Engineering from MIT Academy of Engineering, Alandi(Pune). I am passionate about the programming and problem solving. I possess proficiency in Core Java, along with extensive experience in coding using C, C++, Python, Javascript and PHP. I am exploring the ever-evolving field of technology and leveraging my knowledge to contribute to innovative solutions.
           </p>
-            
-          
         </div>
-
-
-       
       </div>
-
-
-
-
-
-
-
     </section>
+    
     <!-- expertise section ends here -->
 
  
@@ -506,117 +475,164 @@
 </section>  
 
     <!-- portfolio section starts here -->
-    <section class="portfolio" id="projects">
-      <div class="heading text-center pt-5">
-        <small>Projects</small>
-        <h3>Check My Portfolio</h3>
-      </div>
+<section class="portfolio" id="projects">
+  <div class="heading text-center pt-5">
+    <small>Projects</small>
+    <h3>Check My Portfolio</h3>
+  </div>
 
-      <div id="myBtnContainer" class="text-center mt-4">
-        <!-- here we will create custom attribute using data- for filtering -->
-        <button class="filter-item" data-filter="all">All</button>
-        <button class="filter-item" data-filter="game">Game</button>
-        <button class="filter-item" data-filter="webapp">Web App</button>
-        <button class="filter-item" data-filter="website">Website</button>
-        <button class="filter-item" data-filter="brand">Brand</button>
-      </div>
-      <div class="portfolio-body">
-        <div class="row justify-content-evenly px-4">
-          <div class="post col-md-4 game all col-10 mt-3 mt-md-0" data-aos="fade-up">
-            <div class="card">
-              <img src="images/foody.png" class="card-img-top" alt="..." />
-              <div class="card-body text-center">
-                <h4 class="card-title">Foody - A Food Ordering System</h4>
-                <span class="badge bg-secondary badge-pill">HTML&CSS</span>
-                <span class="badge bg-secondary badge-pill">JavaScript</span>
-                <span class="badge bg-secondary badge-pill mb-2">PHP</span>
-                <span class="badge bg-secondary badge-pill mb-2">MySQL</span>
-                <span class="badge bg-secondary badge-pill mb-2">AWS</span><br />
-                <a href="#" class="link">Read More</a>
-              </div>
+  <div id="myBtnContainer" class="text-center mt-4">
+    <!-- here we will create custom attribute using data- for filtering -->
+    <button class="filter-item" data-filter="all">All</button>
+    <button class="filter-item" data-filter="webapp">Web App</button>
+    <button class="filter-item" data-filter="MobileApp">Android Apps</button>
+    <button class="filter-item" data-filter="DesktopSoftwares">Desktop Softwares</button>
+  </div>
+  <div class="portfolio-body">
+    <div class="row justify-content-evenly px-4">
+      <div class="post col-md-4 webapp col-10 mt-3 mt-md-0" data-aos="fade-up">
+        <div class="card">
+          <div class="card-img-container">
+            <img src="images/foody.png" class="card-img-top" alt="Foody - A Food Ordering System" />
+             <div class="card-overlay">
+              <a href="https://github.com/dipak-mohite/FoodPicky-CICD" target="_blank" class="icon-link">
+                <i class="bi bi-github"></i>
+              </a>
+              <a href="https://dipakmohite.netlify.app/" target="_blank" class="icon-link">
+                <i class="bi bi-globe"></i>
+              </a>
             </div>
           </div>
-          <div class="post col-md-4 website all col-10 mt-3 mt-md-0" data-aos="fade-up">
-            <div class="card">
-              <img
-                src="images/noticeboard.jpg"
-                class="card-img-top"
-                alt="..."
-              />  
-              <div class="card-body text-center">
-                <h4 class="card-title">Online Notice Board</h4>
-                <span class="badge bg-secondary badge-pill">HTML&CSS</span>
-                <span class="badge bg-secondary badge-pill">JavaScript</span>
-                <span class="badge bg-secondary badge-pill">PHP</span>
-                <span class="badge bg-secondary badge-pill">MYSQL</span>
-                <br />
-                <a href="#" class="read-more-btn link">Read More</a>
-              </div>
-            </div>
-          </div>
-          <div class="post col-md-4 webapp all col-10 mt-3 mt-md-0" data-aos="fade-up">
-            <div class="card">
-              <img src="images/CalApp.jpg" class="card-img-top" alt="..." />
-              <div class="card-body text-center">
-                <h4 class="card-title">Scientific Calculator - Android APP</h4>
-                <span class="badge bg-secondary badge-pill">HTML&CSS</span>
-                <span class="badge bg-secondary badge-pill">JavaScript</span>
-                <span class="badge bg-secondary badge-pill mb-2">WebApp</span
-                ><br />
-                <a href="#" class="read-more-btn link">Read More</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row justify-content-evenly mt-4 px-4">
-          <div class="post col-md-4 game all col-10 mt-3 mt-md-0" data-aos="fade-up">
-            <div class="card">
-              <img src="images/CalSoft.jpg" class="card-img-top" alt="..." />
-              <div class="card-body text-center">
-                <h4 class="card-title">Calculator Software - Java Swing</h4>
-                <span class="badge bg-secondary badge-pill">Android</span>
-                <span class="badge bg-secondary badge-pill">Java</span>
-                <span class="badge bg-secondary badge-pill mb-2">App</span
-                ><br />
-                <a href="#" class="read-more-btn link">Read More</a>
-              </div>
-            </div>
-          </div>
-          <div class="post col-md-4 website all col-10 mt-3 mt-md-0" data-aos="fade-up">
-            <div class="card">
-              <img src="images/TranslatorPy.jpg" class="card-img-top" alt="..." />
-              <div class="card-body text-center">
-                <h4 class="card-title">Translater - A Software for Text Translation</h4>
-                <span class="badge bg-secondary badge-pill">Python</span>
-                <span class="badge bg-secondary badge-pill">googletrans API</span>
-                <span class="badge bg-secondary badge-pill mb-2">textblob API</span
-                ><br />
-                <a href="#" class="read-more-btn link">Read More</a>
-              </div>
-            </div>
-          </div>
-          <div class="post col-md-4 all col-10 mt-3 mt-md-0" data-aos="fade-up">
-            <div class="card">
-              <img
-                src="images/BlogApp.jpg"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body text-center">
-                <h4 class="card-title">Blog Application - MERN Stack</h4>
-                <span class="badge bg-secondary badge-pill">ReactJS</span>
-                <span class="badge bg-secondary badge-pill">NodeJS</span>
-                <span class="badge bg-secondary badge-pill mb-2">Express</span>
-                  <span class="badge bg-secondary badge-pill mb-2">MongoDB</span
-                ><br />
-                <a href="#" class="read-more-btn link">Read More</a>
-              </div>
-            </div>
+          <div class="card-body text-center">
+            <h4 class="card-title">Foody - A Food Ordering System</h4>
+            <span class="badge bg-secondary badge-pill">HTML&CSS</span>
+            <span class="badge bg-secondary badge-pill">JavaScript</span>
+            <span class="badge bg-secondary badge-pill mb-2">PHP</span>
+            <span class="badge bg-secondary badge-pill mb-2">MySQL</span>
+            <span class="badge bg-secondary badge-pill mb-2">AWS</span><br />
           </div>
         </div>
       </div>
-    </section>
-    <!-- portfolio section ends here -->
+      <div class="post col-md-4 webapp col-10 mt-3 mt-md-0" data-aos="fade-up">
+        <div class="card">
+          <div class="card-img-container">
+            <img src="images/noticeboard.jpg" class="card-img-top" alt="Online Notice Board" />
+             <div class="card-overlay">
+              <a href="https://github.com/dipak-mohite/" target="_blank" class="icon-link">
+                <i class="bi bi-github"></i>
+              </a>
+              <a href="https://dipakmohite.netlify.app/" target="_blank" class="icon-link">
+                <i class="bi bi-globe"></i>
+              </a>
+            </div>
+          </div>
+          <div class="card-body text-center">
+            <h4 class="card-title">Online Notice Board</h4>
+            <span class="badge bg-secondary badge-pill">HTML&CSS</span>
+            <span class="badge bg-secondary badge-pill">JavaScript</span>
+            <span class="badge bg-secondary badge-pill">PHP</span>
+            <span class="badge bg-secondary badge-pill">MYSQL</span>
+            <br />
+          </div>
+        </div>
+      </div>
+      <div class="post col-md-4 MobileApp all col-10 mt-3 mt-md-0" data-aos="fade-up">
+        <div class="card">
+          <div class="card-img-container">
+            <img src="images/CalApp.jpg" class="card-img-top" alt="Scientific Calculator - Android APP" />
+             <div class="card-overlay">
+              <a href="https://github.com/dipak-mohite/Android_Project_Diploma" target="_blank" class="icon-link">
+                <i class="bi bi-github"></i>
+              </a>
+              <a href="https://dipakmohite.netlify.app/" target="_blank" class="icon-link">
+                <i class="bi bi-globe"></i>
+              </a>
+            </div>
+          </div>
+          <div class="card-body text-center">
+            <h4 class="card-title">Scientific Calculator - Android APP</h4>
+            <span class="badge bg-secondary badge-pill">HTML&CSS</span>
+            <span class="badge bg-secondary badge-pill">JavaScript</span>
+            <span class="badge bg-secondary badge-pill mb-2">WebApp</span>
+            <br />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-evenly mt-4 px-4">
+      <div class="post col-md-4 DesktopSoftwares all col-10 mt-3 mt-md-0" data-aos="fade-up">
+        <div class="card">
+          <div class="card-img-container">
+            <img src="images/CalSoft.jpg" class="card-img-top" alt="Calculator Software - Java Swing" />
+             <div class="card-overlay">
+              <a href="https://github.com/dipak-mohite/Android_Project_Diploma/" target="_blank" class="icon-link">
+                <i class="bi bi-github"></i>
+              </a>
+              <a href="https://dipakmohite.netlify.app/" target="_blank" class="icon-link">
+                <i class="bi bi-globe"></i>
+              </a>
+            </div>
+          </div>
+          <div class="card-body text-center">
+            <h4 class="card-title">Calculator Software - Java Swing</h4>
+            <span class="badge bg-secondary badge-pill">Android</span>
+            <span class="badge bg-secondary badge-pill">Java</span>
+            <span class="badge bg-secondary badge-pill mb-2">App</span>
+            <br />
+          </div>
+        </div>
+      </div>
+      <div class="post col-md-4 DesktopSoftwares all col-10 mt-3 mt-md-0" data-aos="fade-up">
+        <div class="card">
+          <div class="card-img-container">
+            <img src="images/TranslatorPy.jpg" class="card-img-top" alt="Translater - A Software for Text Translation" />
+             <div class="card-overlay">
+              <a href="https://github.com/dipak-mohite/Python_Project_Diploma/tree/main/Translator" target="_blank" class="icon-link">
+                <i class="bi bi-github"></i>
+              </a>
+              <a href="https://dipakmohite.netlify.app/" target="_blank" class="icon-link">
+                <i class="bi bi-globe"></i>
+              </a>
+            </div>
+          </div>
+          <div class="card-body text-center">
+            <h4 class="card-title">Translater - A Software for Text Translation</h4>
+            <span class="badge bg-secondary badge-pill">Python</span>
+            <span class="badge bg-secondary badge-pill">googletrans API</span>
+            <span class="badge bg-secondary badge-pill mb-2">textblob API</span>
+            <br />
+          </div>
+        </div>
+      </div>
+      <div class="post col-md-4 webapp col-10 mt-3 mt-md-0" data-aos="fade-up">
+        <div class="card">
+          <div class="card-img-container">
+            <img src="images/BlogApp.jpg" class="card-img-top" alt="Blog Application - MERN Stack" />
+             <div class="card-overlay">
+              
+
+              <a href="https://github.com/dipak-mohite/" target="_blank" class="icon-link">
+                <i class="bi bi-github"></i> 
+              </a>
+              <a href="https://dipakmohite.netlify.app/" target="_blank" class="icon-link">
+                <i class="bi bi-globe"></i>
+              </a>
+            </div>
+          </div>
+          <div class="card-body text-center">
+            <h4 class="card-title">Blog Application - MERN Stack</h4>
+            <span class="badge bg-secondary badge-pill">ReactJS</span>
+            <span class="badge bg-secondary badge-pill">NodeJS</span>
+            <span class="badge bg-secondary badge-pill mb-2">Express</span>
+            <span class="badge bg-secondary badge-pill mb-2">MongoDB</span>
+            <br />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- portfolio section ends here -->
 
     
 

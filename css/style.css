@@ -651,3 +651,46 @@ footer .link-group a:hover{
   .credits a {
     color: var(--color);
   }
+
+
+  .card-img-container {
+    position: relative;
+  }
+  
+  .card-img-top {
+    width: 100%;
+    transition: opacity 0.3s ease;
+  }
+  
+  .card-img-container:hover .card-img-top {
+    opacity: 0.2;
+  }
+  
+  .card-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .card-img-container:hover .card-overlay {
+    opacity: 1;
+  }
+  
+  .icon-link {
+    margin: 0 10px;
+    font-size: 48px; /* Increase the size of the icons */
+    color: #ffffff;  /* Set the color of the icons to white */
+    text-decoration: none;
+  }
+  
+  .icon-link:hover {
+    color: #b10038;/* Optional: change color on hover */
+  }
+  
