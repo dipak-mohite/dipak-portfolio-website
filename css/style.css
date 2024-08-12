@@ -49,6 +49,7 @@ html, body{
 .home{
     background: linear-gradient(33deg, rgba(242,242,255,1) 0%, rgba(235,249,255,1) 100%);
     padding: 30px 0px 10px 0px;
+    padding-bottom: 8rem !important;
 }
 .home h2{
     font-size: 3rem;
